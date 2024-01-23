@@ -22,7 +22,7 @@ const Service = () => {
                   >
                     <div>
                       <img
-                        src="../src/assets/education-pattern-background-doodle-style_53876-115365.avif"
+                        src="/education-pattern-background-doodle-style_53876-115365.avif"
                         className="w-60 h-56"
                         alt="service-img"
                       />

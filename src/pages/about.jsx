@@ -64,7 +64,7 @@ const About = () => {
           </div>
           <div className="flex items-center justify-center  w-3/4 mx-auto">
             <img
-              src="../src/assets/work-in-office-vector-30573353-removebg-preview.png"
+              src="/work-in-office-vector-30573353-removebg-preview.png"
               alt="img"
             />
           </div>

@@ -69,7 +69,7 @@ const Contact = () => {
         <div className="hidden md:block">
           {" "}
           <img
-            src="../src/assets/computer-setting-3635143-3041090.webp"
+            src="/computer-setting-3635143-3041090.webp"
             alt="img"
             className="  md:ml-16 mt-10   mr-10"
           />{" "}

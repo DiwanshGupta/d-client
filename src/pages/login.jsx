@@ -56,7 +56,7 @@ const Login = () => {
         <div className="hidden md:block">
           {" "}
           <img
-            src="../src/assets/work-in-office-vector-30573353-removebg-preview.png"
+            src="/work-in-office-vector-30573353-removebg-preview.png"
             alt="img"
           />{" "}
         </div>

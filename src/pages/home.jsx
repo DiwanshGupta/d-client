@@ -64,7 +64,7 @@ const Home = () => {
             <div className=" m-5    text-white flex items-center flex-col md:flex-row justify-between mt-8">
               <div className="">
                 <img
-                  src="../src/assets/istockphoto-1097092670-612x612-removebg-preview.png"
+                  src="/istockphoto-1097092670-612x612-removebg-preview.png"
                   alt="img"
                   className="hidden md:block  md:ml-16 mt-10   mr-10"
                 />

@@ -57,7 +57,7 @@ const Register = () => {
       <div className="flex justify-around md:flex-row  items-center flex-col">
         <div className="hidden md:block">
           {" "}
-          <img src="../src/assets/giphy.gif" />
+          <img src="/assets/giphy.gif" />
         </div>
         <div className=" md:w-1/2 lg:w-2/6  w-4/5">
           <div className="p-5   md:p-4 justify-center mt-16 items-center   text-white  signgh hover:signgh focus:ring-4 focus:outline-none   font-medium rounded-lg text-sm ">
