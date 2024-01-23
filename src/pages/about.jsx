@@ -12,7 +12,7 @@ const About = () => {
           <div className="">
             <div className="">
               <h2 className="text-xl">
-                Welcome:{" "}
+                Welcome{" "}
                 <span className="font-semibold">
                   {user ? `${user.username}: To our website` : "To our website"}
                 </span>
