@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: black;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.homebg {
+  background-image: url(../src/assets/photo-1550745165-9bc0b252726f.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sizecard {
+  display: flex;
+  padding: auto;
+  width: auto;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5rem; /* equivalent to py-2 in Tailwind */
+}
