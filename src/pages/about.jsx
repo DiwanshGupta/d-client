@@ -14,7 +14,7 @@ const About = () => {
               <h2 className="text-xl">
                 Welcome{" "}
                 <span className="font-semibold">
-                  {user ? `${user.username}: To our website` : "To our website"}
+                  {user ? `${user.username} To our website` : "To our website"}
                 </span>
               </h2>
               <h1 className=" mt-2 text-5xl">Why Choose Us?</h1>
