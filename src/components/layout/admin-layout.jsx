@@ -15,7 +15,7 @@ const Admin = () => {
       </h1>
     );
   }
-  if (user.isadmin == false) {
+  if (!user.isadmin) {
     return <Navigate to="/" />;
   }
   return (
