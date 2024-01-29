@@ -12,7 +12,6 @@ const Register = () => {
   });
   const { storetokeinLs } = useAuth();
 
-  const navigate = useNavigate();
   const handleInput = (e) => {
     let name = e.target.name;
     let value = e.target.value;
@@ -38,7 +37,7 @@ const Register = () => {
         const data = await response.json();
         storetokeinLs(data.token);
         setuser({ username: "", email: "", phone: "", password: "" });
-        navigate("/");
+        window.location.href = "/";
       } else {
         const data = await response.json();
         toast.error(data.message || "An error occurred");

@@ -8,7 +8,6 @@ const Login = () => {
     email: "",
     password: "",
   });
-  const navigate = useNavigate();
   const { storetokeinLs } = useAuth();
 
   const handleInput = (e) => {
@@ -36,7 +35,7 @@ const Login = () => {
         const data = await response.json();
         storetokeinLs(data.token);
         setuser({ email: "", password: "" });
-        navigate("/");
+        window.location.href = "/";
       } else {
         const data = await response.json();
         toast.error(data.message || "An error occurred");
