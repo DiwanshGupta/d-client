@@ -7,17 +7,22 @@
   line-height: 1.5;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.87);
-  background-color: black;
+  background-image: url(/photo-1706459418464-b38b4d3270f4.avif);
   font-synthesis: none;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 .homebg {
-  background-image: url(../src/assets/photo-1550745165-9bc0b252726f.avif);
+  background-image: url(/photo-1551739440-5dd934d3a94a.avif);
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
 }
+
 .sizecard {
   display: flex;
   padding: auto;
@@ -26,4 +31,11 @@
   justify-content: center;
   align-items: center;
   padding-top: 0.5rem; /* equivalent to py-2 in Tailwind */
+}
+
+.blurbg {
+  background: rgba(56, 138, 210, 0.151);
+  box-shadow: 0 8px 32px 0 rgba(198, 198, 209, 0.37);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
 }

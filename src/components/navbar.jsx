@@ -12,9 +12,9 @@ const Navbar = () => {
   };
   return (
     <nav className=" fixed w-full z-20 top-0 left-0  ">
-      <div className="w-full flex flex-wrap bg-violet-800 items-center md:justify-between  justify-between mx-auto p-2">
+      <div className="w-full flex flex-wrap blurbg items-center md:justify-between  justify-between py-3 mx-auto p-2">
         <NavLink to="/" className="flex md:ml-5 items-center">
-          <span className="self-center text-2xl font-semibold whitespace-nowrap text-cyan-600">
+          <span className="self-center text-2xl md:text-4xl italic font-bold whitespace-nowrap text-white">
             D
           </span>
         </NavLink>
@@ -23,7 +23,7 @@ const Navbar = () => {
             onClick={toggleMobileMenu}
             data-collapse-toggle="navbar-sticky"
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-cyan-700 rounded-lg md:hidden  focus:outline-none   dark:text-cyan-600 "
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-base text-white rounded-lg md:hidden  focus:outline-none   dark:text-white "
             aria-controls="navbar-sticky"
             aria-expanded="false"
           >
@@ -59,7 +59,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/"
-                className="block py-2 pl-3 flex pr-4 text-center justify-center text-cyan-500  hover:text-cyan-700  rounded md:bg-transparent  md:p-0 "
+                className="block py-2 pl-3 flex pr-4 text-center font-semibold justify-center text-white  hover:text-white  rounded md:bg-transparent  md:p-0 "
                 aria-current="page"
               >
                 <BiSolidHome className=" text-center text-xl m-1" /> Home
@@ -68,7 +68,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/about"
-                className="block justify-center py-2 pl-3 pr-4 flex text-cyan-500  hover:text-cyan-600  md:hover:bg-transparent  md:p-0 "
+                className="block justify-center py-2 pl-3 pr-4 flex text-white font-semibold  hover:text-white  md:hover:bg-transparent  md:p-0 "
               >
                 <BiDetail className=" text-center text-xl m-1" />
                 {"  "}
@@ -78,7 +78,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/contact"
-                className="block justify-center py-2 pl-3 flex pr-4 text-cyan-500  hover:text-cyan-700  md:hover:bg-transparent  md:p-0 "
+                className="block justify-center py-2 pl-3 flex pr-4 text-white  hover:text-white  md:hover:bg-transparent  md:p-0 "
               >
                 <BiSolidContact className=" text-center  text-xl m-1" />
                 {"  "}
@@ -88,7 +88,7 @@ const Navbar = () => {
             <li>
               <NavLink
                 to="/service"
-                className="block justify-center py-2 pl-3 flex pr-4 text-cyan-500  hover:text-cyan-700  md:hover:bg-transparent  md:p-0 "
+                className="block justify-center py-2 pl-3 flex pr-4 text-white  hover:text-white  md:hover:bg-transparent  md:p-0 "
               >
                 <BiSolidContact className=" text-center  text-xl m-1" />
                 {"  "}
@@ -99,7 +99,7 @@ const Navbar = () => {
               <li>
                 <NavLink
                   to="/logout"
-                  className="block flex justify-center py-2 pl-3 pr-4 text-cyan-500  hover:text-cyan-600  md:hover:bg-transparent  md:p-0 "
+                  className="block flex justify-center py-2 pl-3 pr-4 text-white  hover:text-white  md:hover:bg-transparent  md:p-0 "
                 >
                   <BiLogIn className=" text-center text-xl m-1" />
                   {"  "}
@@ -111,7 +111,7 @@ const Navbar = () => {
                 <li>
                   <NavLink
                     to="/login"
-                    className="block flex justify-center py-2 pl-3 pr-4 text-cyan-500  hover:text-cyan-600  md:hover:bg-transparent  md:p-0 "
+                    className="block flex justify-center py-2 pl-3 pr-4 text-white  hover:text-white  md:hover:bg-transparent  md:p-0 "
                   >
                     <BiLogIn className=" text-center text-xl m-1" />
                     {"  "}
@@ -121,7 +121,7 @@ const Navbar = () => {
                 <li>
                   <NavLink
                     to="/register"
-                    className="block flex justify-center py-2 pl-3 pr-4 text-cyan-500  hover:text-cyan-600  md:hover:bg-transparent  md:p-0 "
+                    className="block flex justify-center py-2 pl-3 pr-4 text-white  hover:text-white  md:hover:bg-transparent  md:p-0 "
                   >
                     <BiLogIn className=" text-center text-xl m-1" />
                     {"  "}
