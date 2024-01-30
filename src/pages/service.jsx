@@ -2,8 +2,14 @@ import React from "react";
 import { useAuth } from "../store/auth";
 
 const Service = () => {
-  const { services } = useAuth();
-
+  const { services, isloading } = useAuth();
+  if (isloading) {
+    return (
+      <h1 className="flex items-center justify-center m-auto text-3xl font-bold h-screen">
+        loading....
+      </h1>
+    );
+  }
   return (
     <>
       <div className="mx-auto bg-black bg-opacity-40 mt-14">

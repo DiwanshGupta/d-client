@@ -54,19 +54,22 @@ const Register = () => {
         <ToastContainer />
       </div>
       <div className="flex justify-around md:flex-row  items-center flex-col">
-        <div className="hidden md:block">
+        <div className="hidden md:block ">
           {" "}
-          <img src="/giphy.gif" />
+          <img
+            src="/giphy.gif"
+            className="md:w-96 rounded-full items-center invert  "
+          />
         </div>
         <div className=" md:w-1/2 lg:w-2/6  w-4/5">
-          <div className="p-5   md:p-4 justify-center mt-16 items-center   text-white  signgh hover:signgh focus:ring-4 focus:outline-none   font-medium rounded-lg text-sm ">
+          <div className="p-5   md:p-4 justify-center mt-16 items-center   text-white   focus:ring-4 focus:outline-none   font-medium rounded-lg text-sm ">
             <form method="post" onSubmit={handleSubmit}>
               <div className="relative z-0 w-full md:p-1.5 mb-6 group">
                 <input
                   type="text"
                   name="username"
                   id="username"
-                  className="block py-2.5 px-0 w-full md:p-1.5 text-sm text-white bg-transparent border-0 border-b-2 border-cyan-500 appearance-none dark:text-gray-400 dark:border-cyan-500 dark:focus:border-cyan-500 focus:outline-none focus:ring-0 focus:border-cyan-500 peer"
+                  className="block py-2.5 px-0 w-full md:p-1.5 text-sm text-white bg-transparent border-0 border-b-2 border-white appearance-none dark:text-white dark:border-white dark:focus:border-white focus:outline-none focus:ring-0 focus:border-white peer"
                   placeholder=" "
                   value={user.username}
                   onChange={handleInput}
@@ -74,7 +77,7 @@ const Register = () => {
                 />
                 <label
                   htmlFor="Username"
-                  className="peer-focus:font-medium absolute md:peer-focus:left-1 text-sm text-cyan-500 dark:text-cyan-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-cyan-500 peer-focus:dark:text-cyan-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                  className="peer-focus:font-medium absolute md:peer-focus:left-1 text-sm text-white dark:text-white duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-white peer-focus:dark:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                 >
                   User Name
                 </label>
@@ -84,7 +87,7 @@ const Register = () => {
                   type="text"
                   name="email"
                   id="email"
-                  className="block py-2.5 px-0 w-full md:p-1.5 text-sm text-white bg-transparent border-0 border-b-2 border-cyan-500 appearance-none dark:text-gray-400 dark:border-cyan-500 dark:focus:border-cyan-500 focus:outline-none focus:ring-0 focus:border-cyan-500 peer"
+                  className="block py-2.5 px-0 w-full md:p-1.5 text-sm text-white bg-transparent border-0 border-b-2 border-white appearance-none dark:text-white dark:border-white dark:focus:border-white focus:outline-none focus:ring-0 focus:border-white peer"
                   placeholder=" "
                   value={user.email}
                   onChange={handleInput}
@@ -92,7 +95,7 @@ const Register = () => {
                 />
                 <label
                   htmlFor="floating_email"
-                  className="peer-focus:font-medium absolute md:peer-focus:left-1 text-sm text-cyan-500 dark:text-cyan-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-cyan-500 peer-focus:dark:text-cyan-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                  className="peer-focus:font-medium absolute md:peer-focus:left-1 text-sm text-white dark:text-white duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-white peer-focus:dark:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                 >
                   Email address
                 </label>
@@ -103,7 +106,7 @@ const Register = () => {
                     type="tel"
                     name="phone"
                     id="phone"
-                    className="block py-2.5 px-0 w-full md:p-1.5 text-sm text-white bg-transparent border-0 border-b-2 border-cyan-500 appearance-none dark:text-gray-400 dark:border-cyan-500 dark:focus:border-cyan-500 focus:outline-none focus:ring-0 focus:border-text-cyan-500 peer"
+                    className="block py-2.5 px-0 w-full md:p-1.5 text-sm text-white bg-transparent border-0 border-b-2 border-white appearance-none dark:text-white dark:border-white dark:focus:border-white focus:outline-none focus:ring-0 focus:border-text-white peer"
                     placeholder=" "
                     autoComplete="off"
                     value={user.phone}
@@ -113,7 +116,7 @@ const Register = () => {
 
                   <label
                     htmlFor="Phone"
-                    className="peer-focus:font-medium absolute md:peer-focus:left-1 text-sm text-cyan-500 dark:text-cyan-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-cyan-500 peer-focus:dark:text-cyan-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                    className="peer-focus:font-medium absolute md:peer-focus:left-1 text-sm text-white dark:text-white duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-white peer-focus:dark:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                   >
                     Phone number
                   </label>
@@ -124,7 +127,7 @@ const Register = () => {
                   type="password"
                   name="password"
                   id="password"
-                  className="block py-2.5 px-0 w-full md:p-1.5 text-sm text-white bg-transparent border-0 border-b-2 border-cyan-500 appearance-none dark:text-gray-400 dark:border-cyan-500 dark:focus:border-cyan-500 focus:outline-none focus:ring-0 focus:border-cyan-500 peer"
+                  className="block py-2.5 px-0 w-full md:p-1.5 text-sm text-white bg-transparent border-0 border-b-2 border-white appearance-none dark:text-white dark:border-white dark:focus:border-white focus:outline-none focus:ring-0 focus:border-white peer"
                   placeholder=" "
                   value={user.password}
                   onChange={handleInput}
@@ -132,7 +135,7 @@ const Register = () => {
                 />
                 <label
                   htmlFor="password"
-                  className="peer-focus:font-medium absolute md:peer-focus:left-1 text-sm text-cyan-500 dark:text-cyan-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-cyan-500 peer-focus:dark:text-cyan-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+                  className="peer-focus:font-medium absolute md:peer-focus:left-1 text-sm text-white dark:text-white duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-white peer-focus:dark:text-white peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
                 >
                   Password
                 </label>
@@ -141,7 +144,7 @@ const Register = () => {
               <div className=" text-center">
                 <button
                   type="submit"
-                  className="text-gray-300  m-auto  bg-teal-500 hover:bg-teal-600 hover:text-gray-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
+                  className="text-gray-300  m-auto  bg-teal-500 hover:bg-teal-600 hover:text-white font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"
                 >
                   Submit
                 </button>
@@ -152,7 +155,7 @@ const Register = () => {
                 <h1>
                   <div className="text-white text-xl ">
                     Already have an account ?{" "}
-                    <NavLink to="/login" className="text-gray-300 ">
+                    <NavLink to="/login" className="text-gray-800 ">
                       Login
                     </NavLink>
                   </div>
